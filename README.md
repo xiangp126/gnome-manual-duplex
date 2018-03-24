@@ -9,7 +9,20 @@ dpkg -i xx.deb
 
 sudo apt-get install -f
 
-## Manual Page
+## Compile Manually
+or manual compile:
+sudo apt-get install transfig python-gtk2-dev
+make -j
+./gnome-manual-duplex
+sudo make install
+
+    Using the Gnome 3 Shell GUI:
+	1)	$ gnome-session-properties 
+		Startup Programs -> GnomeManualDuplex -> Enable
+		[logout][login]
+	2)	Print -> GnomeManualDuplex (Virtual Printer) -> Print
+
+## Whole Readme Page
 
 Requires:
     psutils
