@@ -9,11 +9,16 @@ dpkg -i xx.deb
 
 sudo apt-get install -f
 
+or manual compile,
+
 ## Compile Manually
-or manual compile:
+
 sudo apt-get install transfig python-gtk2-dev
+
 make -j
+
 ./gnome-manual-duplex
+
 sudo make install
 
     Using the Gnome 3 Shell GUI:
