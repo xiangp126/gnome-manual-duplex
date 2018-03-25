@@ -1,3 +1,11 @@
+## Preferred on Ubuntu
+
+```bash
+sudo apt-get install cups-pdf
+```
+
+![](https://github.com/xiangp126/gnome-manual-duplex/blob/master/img/pageSetup.png)
+
 ## gnome-manual-duplex
 linux printer manual duplex under Ubuntu
 
@@ -22,7 +30,7 @@ make -j
 sudo make install
 
     Using the Gnome 3 Shell GUI:
-	1)	$ gnome-session-properties 
+	1)	$ gnome-session-properties
 		Startup Programs -> GnomeManualDuplex -> Enable
 		[logout][login]
 	2)	Print -> GnomeManualDuplex (Virtual Printer) -> Print
@@ -58,11 +66,11 @@ Then:
 	2)	Print -> GnomeManualDuplex (Virtual Printer) -> Print
 
     Using the Gnome 3 Shell GUI:
-	1)	$ gnome-session-properties 
+	1)	$ gnome-session-properties
 		Startup Programs -> GnomeManualDuplex -> Enable
 		[logout][login]
 	2)	Print -> GnomeManualDuplex (Virtual Printer) -> Print
-    
+
 	If gnome-session-properties does not exist (Gnome 3.12+), you can
 	install it with:
 		$ gmd-autostart-3
